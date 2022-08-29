@@ -10,25 +10,26 @@
         android:layout_height="66dp"
         android:background="#3399FF"
         android:orientation="horizontal"/>
-        <EditText
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColorHint="#FFF"
             android:layout_marginTop="5dp"
             android:hint="Back"/>
-        <EditText
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColorHint="#FFF"
             android:layout_marginTop="5dp"
             android:hint="Profile"
             android:layout_marginLeft="175dp"/>
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/setting"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="330dp"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="335dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/icon2" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="180dp"
@@ -39,11 +40,12 @@
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:background="@drawable/iconn"/>
-        <EditText
+            android:background="@drawable/icon3"/>
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Profile Name"
+            android:layout_marginTop="5dp"
+            android:hint="Lê Bá Quốc - 2050531200260"
             android:textColorHint="#FFF"
             android:textStyle="bold"/>
     </LinearLayout>
@@ -60,14 +62,14 @@
             android:background="#3399FF"
             android:orientation="vertical"
             android:gravity="center">
-            <EditText
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColorHint="#FFF"
                 android:hint="125"
                 android:textStyle="bold"
                 />
-            <EditText
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="Friends"
@@ -82,14 +84,14 @@
         android:background="#3399FF"
         android:orientation="vertical"
         android:gravity="center">
-        <EditText
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColorHint="#FFF"
             android:hint="250"
             android:textStyle="bold"
             />
-        <EditText
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="Followers"
