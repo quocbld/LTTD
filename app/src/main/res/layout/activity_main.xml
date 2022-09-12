@@ -16,14 +16,15 @@
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@drawable/icon" />
+            android:src="@drawable/profile1"
+            android:layout_margin="20dp"/>
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="15"
             android:id="@+id/edittextuser"
-            android:hint="User Name"
+            android:hint="Tài khoản"
             android:textColorHint="#3399FF"
             android:textSize="20dp"
             android:background="@drawable/vien"/>
@@ -34,7 +35,7 @@
             android:layout_marginBottom="15dp"
             android:id="@+id/edittextpassword"
             android:ems="15"
-            android:hint="Password"
+            android:hint="Mật Khẩu"
             android:textColorHint="#3399FF"
             android:inputType="textPassword"
             android:textSize="20dp"
@@ -43,10 +44,17 @@
         <Button
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="200dp"
             android:id="@+id/buttondangnhap"
             android:background="@drawable/color"
-            android:text="LOGIN ME"
+            android:text="ĐĂNG NHẬP"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/buttondangki"
+            android:background="@drawable/color"
+            android:text="ĐĂNG KÍ"
             android:textColor="#FFFFFF"/>
 
         <TextView

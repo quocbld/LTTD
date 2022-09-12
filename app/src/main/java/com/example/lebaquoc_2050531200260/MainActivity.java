@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     EditText edtuser,edtpassword;
-    Button btndangnhap;
+    Button btndangnhap,btndangki;
     String ten,mk;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,8 +34,16 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(MainActivity.this,"Sai mật khẩu",Toast.LENGTH_SHORT).show();
                     }
                 }else{
-                    Toast.makeText(MainActivity.this,"Vui lòng nhập đầy đủ thông tin",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this,"Vui lòng nhập đầy đủ thông tin \n Nếu chưa có tài khoản vui lòng đăng kí",Toast.LENGTH_SHORT).show();
                 }
+            }
+        });
+        btndangki = (Button) findViewById(R.id.buttondangki);
+        btndangki.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,DangKi.class);
+                startActivity(intent);
             }
         });
     }
